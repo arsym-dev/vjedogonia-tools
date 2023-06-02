@@ -1,8 +1,6 @@
 <img src="https://img.shields.io/badge/license-Apache%202.0-green"> <img src="https://img.shields.io/badge/python-v3-blue">
 
-These tools process files for the NITRO PLUS visual novel _[Vampirdzhija Vjedogonia](https://vndb.org/v433)_. Process PCK archives,
-
-help pack and unpack both images and text from
+Tools to process files for the NITRO PLUS visual novel _[Vampirdzhija Vjedogonia](https://vndb.org/v433)_.
 
 ## Table of Contents <!-- omit in toc -->
 
