@@ -56,10 +56,17 @@ python img2npi.py path/to/file1 [path/to/file2...]
 
 CDE files contain the script of the game. They control the dialogue, sprites, music, transtions, etc.
 
-To decrypt CDE files, use the following command:
+NPS files are Shift JIS encoded.
+
+To convert CDE files to NPS (NitroPlus Script) and back, use the following commands:
 
 ```bash
-python script_decode.py path/to/script.cde
+# CDE -> NPS
+python cde2nps.py [--no-backup] path/to/file1 [path/to/file2...]
+
+# NPS -> CDE
+python nps2cde.py [--no-backup] path/to/file1 [path/to/file2...]
+
 ```
 
 # File Format Headers
